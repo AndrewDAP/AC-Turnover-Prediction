@@ -1,0 +1,24 @@
+Client_data.csv
+	- Dropped 
+		- PREFERRED_LANGUAGE:
+            - Vast majority are "ENG", so no value from this column
+
+		- COUNTRY
+			- Vast majority are "US", so no value from this column
+
+		- HAS_ADLS
+			- No value from this column
+
+		- LENGTH_OF_STAY
+			- No value from this column
+			- Doesn't match with DISCHARGE_DATE - ADMISSION_DATE
+
+	- Clean up:
+		- Age:
+			- Remove negative values
+			- 
+            
+visit_data.csv
+
+    - Employee id
+            remove employee_id 2 because this visit has not been done by an actual employee

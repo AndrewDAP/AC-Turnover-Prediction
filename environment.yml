@@ -1,0 +1,7 @@
+name: AlayaCare
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip=23.2.1
+  - python=3.10.12

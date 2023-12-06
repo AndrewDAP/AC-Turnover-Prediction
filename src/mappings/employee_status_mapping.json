@@ -1,0 +1,9 @@
+{
+    "1": "ACTIVE",
+    "2": "TERMINATED",
+    "3": "SUSPENDED",
+    "4": "ON_HOLD",
+    "5": "PENDING",
+    "6": "APPLICANT_APPLICANT",
+    "7": "APPLICANT_REJECTED"
+}

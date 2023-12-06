@@ -1,0 +1,21 @@
+stages:
+  - lint
+  - test
+
+pylint:
+  image: "python:latest"
+  stage: lint
+  script:
+    - pip install pylint
+    - pylint src/
+
+unit-test:
+  image: python:3.10.12
+  stage: test
+  script:
+    - apt-get update && apt-get install -y curl
+    - curl -sSL https://install.python-poetry.org | python3 -
+    - export PATH="/root/.local/bin:$PATH"
+    - poetry install --no-root
+    - poetry run pytest test/
+
